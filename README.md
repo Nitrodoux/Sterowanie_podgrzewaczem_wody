@@ -1,0 +1,3 @@
+# Sterowanie podgrzewaczem wody
+
+Środowisko Simulink oraz moduł StateFlow są bardzo wygodnymi oraz rozbudowanymi narzędziami pozwalającymi na zamodelowanie układów oraz ich sterowania zdarzeniami.  Moim zadaniem była symulacja podgrzewania wody w zbiorniku. Zamodelowany układ jest członem całkującym. Wartość zadaną ustaliłem na poziomie 22°C. Wykorzystałem do tego regulator dwupołożeniowy oraz trójpołożeniowy. Następnie sprawdziłem jak zachowuje się układ w przypadku braku histerezy oraz gdy ona wystąpi. Parametry błędów histerezy dobrałem tak, aby nie wielkość regulowana nie odbiegała zbyt dużo od wartości ustalonej. Dobór optymalnych wyników symulacji przeprowadziłem dzięki funkcji Simulation Data Inspector.
